@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+  }
+
+  body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 136, 255, 0.089);
+    background-image: url("images/Screenshot (274).png");
+
+  }
+
+ .left-sidebar{
+    background: #fff;
+    flex-basis: 20%;
+    position:sticky;
+    align-self: flex-start;
+    height: 95vh;
+    margin-left: 0px;
+    box-shadow: rgba(22, 20, 17, 0.24) 1px 4px 9px;
+    padding-left: 5px;
+    padding-top: -15px;
+    padding-bottom: 5px;
+    margin-top:10px;
+    border-radius:11px;
+    justify-content: left;
+    margin-right: 200px;
+    margin-left: -210px;
+    
+    
+    
+
+ }
+
+
+ .imp-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+   margin-bottom: 25px;
+    color: #11100eb9;
+   width: fit-content;
+   padding-top:  5px;
+   margin-left: 15px;
+   font-family:'Poppins', sans-serif;
+   margin-top: 16px;
+   
+ }
+
+
+.imp-links a, img{
+      width: 25px;
+      margin-right: 10px;
+         
+}
+
+ 
+
+ .button{
+    margin: 10px 15px ;
+
+        background-color: #fff;
+        border: none;
+        color: white;
+        padding: 7px 15px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius:12px;    
+          
+      }
+
+      
+    
+      .p{
+        padding-right: 200px;
+        
+    }
+
+
+    .imgin{
+  padding-top: 8px;
+  
+    }
+
+
+    .global-footer{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: left;
+        margin-top: 290px;
+        font-size: 10px;
+        position:sticky;
+}
+
+.global-footer-compact__content {
+    margin: 1.6rem 2.4rem;
+}
+
+.global-footer-compact__item {
+    display: flex;
+    margin: 0.4rem 0.8rem;
+}
+
+.global-footer-compact__links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.global-footer__link {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: var(--color-text-low-emphasis);
+}
+
+
+
+
+.text-align-left{
+    color: #1b1917;
+    
+}
+
+
+
+
+.search{
+    background-color:#ffffff;
+   
+}
+
+.search__heading{  
+    font-size: 24px;
+    color: #222;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.search__form{
+    text-align: center;
+}
+
+
+.search__input{
+    font-size: 16px;
+padding: 8px;
+width: 40%;
+margin-right: 8px;
+border: 1px solid #ccc;
+border-radius:2px;
+}
+
+.search__button{
+
+font-size: 16px;
+font-weight: bold;
+color: white;
+background-color: #ffa733;
+padding: 8px 16px;
+border-radius:2px;
+}
+
+.listings__heading {
+    font-size: 16px;
+    color: #11100eb9;
+  }
+
+.listings__grid {
+   list-style: none;
+   margin-top:16px;
+   display: grid;
+   grid-template-columns: 250px 250px 250px ;
+   grid-column-gap: 8px;
+   grid-row-gap: 16;
+}
+
+section{
+    background-color: white;
+    padding: 24px;
+    margin: 16px 0;
+    border: 1px solid l#ccc;
+    border-radius:11px;
+    
+}
+   
+.listings{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -100px;
+    box-shadow: rgba(22, 20, 17, 0.24) 1px 4px 9px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.card__Logo {
+    width: 64px;
+    height: 64px;
+    margin: 8px 0px;
+}
+
+ .card__heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #11100eb9;
+    line-height: 2;
+ }
+
+ .card__text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+ }
+
+ .card__text--small{
+     font-size: 12px;
+ }
+
+ .mt{
+     margin-top: 16px;
+ }
+
+ .card__separator {
+    border-top: 1px solid #ccc;
+    margin: 8px 0;
+    width: 70px;
+    
+ }
+
+
+i{
+
+    margin-right: 10px;
+}
